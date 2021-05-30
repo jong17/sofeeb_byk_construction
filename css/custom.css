@@ -316,9 +316,11 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .why_us_item{ padding-top: 55px;}
 #why_us .fa{
     border-radius: 100%;
-    box-shadow: 0 0 0 10px #81d4fa, 0 0 0 20px #a7ddf7, 0 0 0 30px #bee0f1;
-    padding: 38px;
+    /* box-shadow: 0 0 0 10px #81d4fa, 0 0 0 20px #a7ddf7, 0 0 0 30px #bee0f1; */
+    box-shadow: 0 0 0 8px #81d4fa, 0 0 0 13px #a7ddf7,0 0 0 18px #bee0f1;
+    /* padding: 10px; */
     font-size:45px;
+    width: 50%;
 }
 .why_us_item > h4 {
     font-size: 15px;
