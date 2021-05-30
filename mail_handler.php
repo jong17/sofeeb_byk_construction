@@ -1,4 +1,5 @@
 <?php 
+    header('Location: https://cebyk.com');
 // if(isset($_POST['submit'])){
     $to = "Cons&Eng@cebyk.com"; // this is your Email address
     $from = "noreply@cebyk.com"; // this is the sender's Email address
@@ -13,7 +14,8 @@
     // $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+    echo '<script>alert("Mail Sent. Thank you " . $name . ", we will contact you shortly.")</script>';
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     // }
+    exit();
 ?>
