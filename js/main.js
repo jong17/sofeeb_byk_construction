@@ -1,6 +1,13 @@
 "use strict";
 jQuery(document).ready(function ($) {
 
+    $('#about').css('display', 'none');
+    $('#why_us').css('display', 'none');
+    $('#services').css('display', 'none');
+    $('#portfolio').css('display', 'none');
+    $('#contact_form').css('display', 'none');
+    $('footer').css('display', 'none');
+
 //==========================================
 // MOBAILE MENU
 //=========================================
@@ -57,6 +64,52 @@ jQuery(document).ready(function ($) {
         $("#loading").fadeOut(500);
     });
 
+//==========================================
+// Nav
+//=========================================
 
+$('#nav-about').click(function(){
+    $('#about').fadeIn(500);
+    $('#home').css('display', 'none');
+    $('#why_us').css('display', 'none');
+    $('#services').css('display', 'none');
+    $('#portfolio').css('display', 'none');
+    $('#contact_form').css('display', 'none');
+    $('footer').css('display', 'none');
+
+})
+
+$('#nav-services').click(function(){
+    $('#why_us').fadeIn(500);
+    $('#services').fadeIn(500);
+    $('#home').css('display', 'none');
+    $('#about').css('display', 'none');
+    $('#portfolio').css('display', 'none');
+    $('#contact_form').css('display', 'none');
+    $('footer').css('display', 'none');
+
+})
+
+$('#nav-portfolio').click(function(){
+    $('#portfolio').fadeIn(500);
+    $('#home').css('display', 'none');
+    $('#about').css('display', 'none');
+    $('#why_us').css('display', 'none');
+    $('#services').css('display', 'none');
+    $('#contact_form').css('display', 'none');
+    $('footer').css('display', 'none');
+
+})
+
+$('#nav-contact-form').click(function(){
+    $('#contact_form').fadeIn(500);
+    $('footer').fadeIn(500);
+    $('#home').css('display', 'none');
+    $('#about').css('display', 'none');
+    $('#why_us').css('display', 'none');
+    $('#services').css('display', 'none');
+    $('#portfolio').css('display', 'none');
+
+})
 
 });
