@@ -4,9 +4,9 @@
     $from = "noreply@cebyk.com"; // this is the sender's Email address
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $subject = "ขอใบเสนอราคา";
+    $subject = $_POST['subject'];
     // $subject2 = "Copy of your form submission";
-    $message = "คุณ " . $name . "\n\n อีเมล " . $email . " \n\nรายละเอียดเพิ่มเติม:\n\n" . $_POST['msg'];
+    $message = "คุณ " . $name . "\n\nอีเมล " . $email . " \n\nรายละเอียดเพิ่มเติม:\n\n" . $_POST['msg'];
     // $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
 
     $headers = 'Content-Type: text/plain; charset=utf-8' . "\r\n";
