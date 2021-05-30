@@ -551,18 +551,14 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     border: 2px solid transparent;
     border-radius: 10px;
     font-size: 15px;
-    /* height: 45px; */
+    height: 45px;
     margin: 8px;
     padding: 10px 20px;
     width: 250px;
     box-shadow: none;
 }
-#contact_form .form-inline input.form-control {
-    height: 45px;
-}
 #contact_form .form-inline select.form-control {
     width: 525px;
-    height: 45px;
 }
 #contact_form .form-inline textarea.form-control {
     width: 525px;
@@ -780,6 +776,9 @@ footer::after {
     #contact_form .form-inline .form-control {
         width: 202px;
     }
+    #contact_form .form-inline select.form-control {
+        width: 317px;
+    }
     #contact_form .form-inline textarea.form-control {
         width: 317px;
     }
@@ -833,6 +832,9 @@ footer::after {
     }
     #contact_form .form-inline .form-control {
         width: 349px;
+    }
+    #contact_form .form-inline select.form-control {
+        width: 720px;
     }
     #contact_form .form-inline textarea.form-control {
         width: 538px;
@@ -899,7 +901,7 @@ footer::after {
     #contact_form form.form-inline {
         margin: 0;
     }
-    #contact_form .form-inline .form-control,#contact_form .form-inline textarea.form-control {
+    #contact_form .form-inline .form-control,#contact_form .form-inline textarea.form-control, #contact_form .form-inline select.form-control {
         margin: 0;
         width: 100%;
     }
