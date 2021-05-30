@@ -288,9 +288,10 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     text-transform: inherit;
 }
 .about_content > p {
-    line-height: 18px;
-    margin-bottom: 18px;
+    line-height: 30px;
+    margin-bottom: 23px;
     text-align: justify;
+    font-size: 25px;
 }
 .about_content .btn.know_btn {
     margin: 18px 0 60px;
@@ -333,7 +334,8 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     text-align:center;
 }
 .service_item > h3 {
-    margin: 25px 0 15px;
+    margin: 25px 0 55px;
+
 }
 .service_item .btn.know_btn {
     margin: 20px 0 100px;
